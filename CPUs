@@ -1,0 +1,18 @@
+#ifndef CPUS_H
+#define CPUS_H
+#include "Players.h"
+using namespace std;
+
+
+
+class CPUs : public Players{
+  public:
+  CPUs(int playerNum, string name, int money);
+  ~CPUs();
+
+
+};
+
+
+
+#endif //CPUS_H
